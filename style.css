@@ -1,0 +1,258 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*style.css*/
+h4{
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 120px;
+    color: #2f1c6a;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    width: 88%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container .item{
+    border: 1px solid #dddddd;
+    margin-bottom: 80px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+    width: 270px;
+}
+.container .item:hover{
+    transform: scale(1.028);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.container .item .isi{
+    width: 240px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
+
+
+/* item*/
+.container .item1{
+    height: 500px;
+    border-radius: 8px;
+}
+.container .item2{
+    padding: 0%;
+    width: 280px;
+    height: 650px;
+    margin-top: -40px;
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.2);
+    border: #dddddd;
+}
+.container .item3, .item4{
+    height: 700px;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+/*nama*/
+.item .isi .nama{
+    padding-top: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.item .isi .nama h1{
+    margin-bottom: 10px;
+    color: rgb(13, 13, 121);
+    font-weight: 800;
+    font-family: 'Mulish', sans-serif;
+    font-size: 17px;    
+}
+.item .isi .nama p{
+    font-family: 'Mulish', sans-serif;
+    color: rgb(30, 30, 139);
+    font-size: 14px;
+}
+.item3 .isi .nama{
+    margin-bottom: -20px;
+}
+.item4 .isi .nama{
+    margin-bottom: -20px;
+}
+
+
+
+
+
+
+/*harga*/
+.harga{
+    margin: 40px auto;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.harga .diskon{
+    width: 190px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.harga .diskon p{
+    text-align: center;
+    padding: 9px;
+    font-family: 'Mulish', sans-serif;
+}
+.harga .diskon p:first-child{
+    font-size: 14px;
+    text-decoration: line-through;
+    color: #999999;
+    font-weight: 500;
+}
+.harga .diskon p:nth-child(2){
+    border-radius: 18px;
+    background-color: #8c85ff;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+.harga .p1{
+    font-size: 54px;
+    color: #2f1c6a;
+    font-weight: bold;
+    font-family: 'Mulish', sans-serif;
+}
+.harga .p1 sub{
+    font-size: 20px;
+}
+.harga .p2{
+    color: #727586;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+
+/*button*/
+.item .isi button{
+    background-color: #673de6;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 30px;
+    width: 220px;
+    font-size: 18px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    margin-left: 4px;
+}
+.item .isi button:hover{
+    background-color: #522bc7;
+}
+.item .isi button:active{
+    background-color: #815dee;
+}
+
+.item .isi .p3{
+    margin-top: 14px;
+    color: #999999;
+}
+
+
+
+
+
+
+
+
+/*most popular*/
+
+.container .item2 .isi2{
+    margin: auto;
+}
+
+.container .item2 .popular{
+    padding: 10px;
+    background-color: #fc5185;
+    text-align: center;
+}
+.container .item2 .popular p{
+    color: white;
+    font-weight: bold;
+    font-family: 'Mulish', sans-serif;
+    letter-spacing: 2px;
+}
+.harga .diskon2 p.beda{
+    background-color: #fc5185;
+} 
+.item2 .isi2 button{
+    background-color: #fc5185;
+}
+.item2 .isi2 button.button2:hover{
+    background-color: #e64776;
+}
+.item2 .isi2 button.button2:active{
+    background-color: #f76e97;
+}
